@@ -1,0 +1,154 @@
+
+ion-app.mobile .aio-mobile-hide,
+ion-app.web-browser .aio-web-browser-hide,
+.aioHidden {
+	display: none!important;
+}
+.aio-validation-error {
+	color: var(--ion-color-danger);
+	--padding-top: 5px;
+	--padding-bottom: 5px;
+	padding: var(--padding-top, 5px) var(--padding-end, 15px) var(--padding-bottom, 5px) var(--padding-start, 15px);
+	text-align: start;
+}
+ion-content.aio-vertical-align-center::part(scroll),
+ion-content.aio-vertical-align-bottom::part(scroll) {
+	display: flex;
+	padding-top: 0px;
+}
+ion-content.aio-vertical-align-center::part(scroll) {
+	align-items: center;
+	padding-bottom: 10px;
+}
+ion-content.aio-vertical-align-bottom::part(scroll) {
+	align-items: flex-end;
+	padding-bottom: 0px;
+}
+.aio-vertical-align-wrapper {
+	flex: auto;
+}
+ion-item.item-label-stacked.item-input > ion-icon[slot="start"],
+ion-item.item-label-stacked.item-input > ion-icon[slot="end"],
+ion-item.item-label-floating.item-input > ion-icon[slot="start"],
+ion-item.item-label-floating.item-input > ion-icon[slot="end"],
+ion-item.item-label-floating::part(detail-icon),
+ion-item.item-label-stacked::part(detail-icon) {
+	margin-top: auto;
+}
+ion-item.item-label-stacked.item-textarea > ion-icon[slot="start"],
+ion-item.item-label-stacked.item-textarea > ion-icon[slot="end"],
+ion-item.item-label-floating.item-textarea > ion-icon[slot="start"],
+ion-item.item-label-floating.item-textarea > ion-icon[slot="end"] {
+	margin-top: 10px;
+}
+ion-item.item-label-floating::part(detail-icon),
+ion-item.item-label-stacked::part(detail-icon) {
+	margin-bottom: 10px;
+}
+/* Fix Ionic 5 issues */
+ion-item ion-reorder:not([slot]) {
+	z-index: 100;
+}
+/** ngx-datatable fix pagination **/
+@media only screen and (max-width: 500px) {
+	.ngx-datatable.material .datatable-footer {
+		.page-count {
+			white-space: nowrap;
+		}
+		.pager {
+			white-space: nowrap;
+		}
+
+	}
+
+}
+/*
+* Appery.io component.
+*/
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.img-rounded {
+	border-radius: 6px;
+}
+ion-img::part(image) {
+	box-sizing: border-box;
+}
+/* [ETST-42825 Ionic Input Margin Bug] Temporary fix for ion-input width */
+:not(ion-item) > ion-input.sc-ion-input-ios-h,
+:not(ion-item) > ion-input.sc-ion-input-md-h {
+	width: auto;
+}
+.action-sheet-group.sc-ion-action-sheet-ios {
+	overflow: auto;
+}
+.action-sheet-wrapper.sc-ion-action-sheet-ios {
+	top: 0;
+	height: auto;
+}
+ion-toolbar {
+	width: auto;
+}
+ion-toolbar.ios ion-title.title-large {
+	text-align: center;
+}
+:root {
+	&.md ngx-datatable {
+		--aio-toolbar-min-height: 56px;
+	}
+	&.ios ngx-datatable {
+		--aio-toolbar-min-height: 44px;
+	}
+	ngx-datatable {
+		&.aio-datatable-height-25 {
+			height: 25vh;
+		}
+		&.aio-datatable-height-33 {
+			height: 33vh;
+		}
+		&.aio-datatable-height-50 {
+			height: 50vh;
+		}
+		&.aio-datatable-height-66 {
+			height: 66vh;
+		}
+		&.aio-datatable-height-75 {
+			height: 75vh;
+		}
+		&.aio-datatable-height-100 {
+			height: 100vh;
+		}
+		&.height-100-header {
+			height: calc(100vh - var(--aio-toolbar-min-height));
+		}
+		&.height-100-header-footer {
+			height: calc(100vh - 2 * var(--aio-toolbar-min-height));
+		}
+
+	}
+	.datatable-icon-next {
+		font-size: 20px;
+		line-height: 20px;
+		padding: 0 3px;
+		&:before {
+			content: '\71';
+		}
+
+	}
+
+}
+ion-menu::part(container) {
+	box-sizing: border-box;
+}
+@media (min-width: 768px) {
+	ion-modal {
+		--border-radius: 8px;
+
+	}
+
+}

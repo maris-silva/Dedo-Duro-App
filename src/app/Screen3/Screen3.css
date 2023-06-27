@@ -1,0 +1,49 @@
+
+/* Styles properties */
+ion-content[_aio-B5FE699A] {
+	background: #eeeeee;
+	--background: #eeeeee;
+}
+ion-button[_aio-16EF8ADA] {
+	height: 150px;
+}
+ion-button[_aio-16EF8ADA]::part(native) {
+	color: var(--ion-color-dark);
+	background-color: #E7343D;
+	border-color: #E7343D;
+}
+ion-button[_aio-587E1BA2] {
+	height: 150px;
+}
+ion-button[_aio-587E1BA2]::part(native) {
+	color: var(--ion-color-dark);
+	background-color: #E7343D;
+	border-color: #E7343D;
+}
+ion-button[_aio-B56AE282] {
+	height: 150px;
+}
+ion-button[_aio-B56AE282]::part(native) {
+	color: var(--ion-color-dark);
+	background-color: #E7343D;
+	border-color: #E7343D;
+}
+ion-button[_aio-CD86EC1E] {
+	height: 150px;
+}
+ion-button[_aio-CD86EC1E]::part(native) {
+	color: var(--ion-color-dark);
+	background-color: #E7343D;
+	border-color: #E7343D;
+}
+ion-button[_aio-A8F4CC15] {
+	height: 150px;
+}
+ion-button[_aio-A8F4CC15]::part(native) {
+	color: var(--ion-color-dark);
+	background-color: #E7343D;
+	border-color: #E7343D;
+}
+ion-toolbar[_aio-39CE229F] {
+	--background: #E7343D;
+}

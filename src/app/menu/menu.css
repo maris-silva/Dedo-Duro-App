@@ -1,0 +1,32 @@
+
+/* Styles properties */
+ion-content[_aio-D8287C40] {
+	background: #eeeeee;
+	--background: #eeeeee;
+}
+ion-toolbar[_aio-96FFE4DD] {
+	--background: #E7343D;
+}
+ion-toolbar[_aio-2090AEA2] {
+	--background: #E7343D;
+}
+ion-button[_aio-F21B898E]::part(native) {
+	color: var(--ion-color-dark);
+	background-color: #E7343D;
+	border-color: #E7343D;
+}
+ion-button[_aio-182EC10D]::part(native) {
+	color: var(--ion-color-dark);
+	background-color: #E7343D;
+	border-color: #E7343D;
+}
+ion-button[_aio-A12D0BBC]::part(native) {
+	color: var(--ion-color-dark);
+	background-color: #E7343D;
+	border-color: #E7343D;
+}
+ion-button[_aio-B3C22CC8]::part(native) {
+	color: var(--ion-color-dark);
+	background-color: #E7343D;
+	border-color: #E7343D;
+}

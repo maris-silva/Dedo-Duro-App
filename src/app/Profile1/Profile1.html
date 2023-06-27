@@ -1,0 +1,214 @@
+<ion-header _aio-94B6E269 class="ion-no-border">
+    <ion-toolbar _aio-9A9C060A #j_59>
+        <ion-title _aio-6F86A17C #j_60 color="dark">
+            Profile
+        </ion-title>
+        <ion-buttons #j_61 _aio-33A01329 slot="end" collapse="true">
+            <ion-button _aio-8D23D48C #j_62 expand="block" color="dark" (click)="editbuttonClick__j_62($event, currentItem)"
+            [class.aioHidden]="!__getMapping(currentItem, 'j_62__visible', true)">
+                <ion-icon _aio-8D23D48C #j_62__icon name="pencil-sharp">
+                </ion-icon>
+            </ion-button>
+            <ion-button _aio-783FF25E #j_63 expand="block" color="dark" (click)="cancelbuttonClick__j_63($event, currentItem)"
+            [class.aioHidden]="!__getMapping(currentItem, 'j_63__visible', true)">
+                Cancel
+            </ion-button>
+        </ion-buttons>
+        <ion-buttons #j_64 _aio-29B898F1 slot="start" collapse="true">
+            <ion-back-button _aio-2341535A #j_65 color="dark" (click)="backbuttonClick__j_65($event, currentItem)">
+            </ion-back-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+<ion-content _aio-5529B2E2>
+    <ion-grid _aio-0D4EA519 #j_2>
+        <ion-row _aio-ADB61805 #j_3>
+            <ion-col _aio-60A3B33F #j_4 class="ion-text-center" size-lg="4" size-md="6" size-sm="12"
+            size-xl="4" size-xs="12">
+                <ion-avatar _aio-EB19D31C class="img">
+                    <img #j_5 src="{{__getMapping(currentItem, 'j_5__imageSrc', 'assets/images/camera.svg', false)}}"
+                    alt="Image error">
+                </ion-avatar>
+                <aio-file-picker _aio-F554C72A #j_6 (ionChange)="filepickerIonChange__j_6($event, currentItem)"
+                type="image" showCount="false" showFiles="false" showRemoveIcon="true" name="FilePicker"
+                [class.aioHidden]="!__getMapping(currentItem, 'j_6__visible', true)" imageSrc="assets/images/no-image.jpg"
+                [ngModel]>
+                </aio-file-picker>
+            </ion-col>
+            <ion-col _aio-34DB0A58 #j_8 class="ion-text-center">
+                <div _aio-C46B9877 #j_9 [class.aioHidden]="!__getMapping(currentItem, 'j_9__visible', true)">
+                    <span _aio-1F7BC3E2 #j_10>
+                        <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_10__text')" [ngIfElse]="j_10__default_text">
+                            {{__getMapping(currentItem, 'j_10__text', '', false)}}
+                        </ng-template>
+                        <ng-template #j_10__default_text>
+                            John
+                        </ng-template>
+                    </span>
+                    <span _aio-400200CB #j_11>
+                        <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_11__text')" [ngIfElse]="j_11__default_text">
+                            {{__getMapping(currentItem, 'j_11__text', '', false)}}
+                        </ng-template>
+                        <ng-template #j_11__default_text>
+                            Doe
+                        </ng-template>
+                    </span>
+                    <ion-note _aio-CC6424ED #j_12>
+                        <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_12__text')" [ngIfElse]="j_12__default_text">
+                            {{__getMapping(currentItem, 'j_12__text', '', false)}}
+                        </ng-template>
+                        <ng-template #j_12__default_text>
+                            Product Designer
+                        </ng-template>
+                    </ion-note>
+                    <ion-grid _aio-C7159CAB #j_13>
+                        <ion-row _aio-3D32E698 #j_14>
+                            <ion-col _aio-04F01FB3 #j_15 class="ion-text-left">
+                                <ion-text _aio-4EFF2370 #j_16>
+                                    Phone:
+                                </ion-text>
+                            </ion-col>
+                            <ion-col _aio-1A4CC4D1 #j_17 class="ion-text-left">
+                                <ion-text _aio-2A469E17 #j_18>
+                                    <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_18__text')" [ngIfElse]="j_18__default_text">
+                                        {{__getMapping(currentItem, 'j_18__text', '', false)}}
+                                    </ng-template>
+                                    <ng-template #j_18__default_text>
+                                        +1 (000) 000-00000
+                                    </ng-template>
+                                </ion-text>
+                            </ion-col>
+                        </ion-row>
+                        <ion-row _aio-F53B29DE #j_19>
+                            <ion-col _aio-787FDF3C #j_20 class="ion-text-left">
+                                <ion-text _aio-1B81E7F2 #j_21>
+                                    Email:
+                                </ion-text>
+                            </ion-col>
+                            <ion-col _aio-0B6707D6 #j_22 class="ion-text-left">
+                                <ion-text _aio-7DFEC370 #j_23>
+                                    <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_23__text')" [ngIfElse]="j_23__default_text">
+                                        {{__getMapping(currentItem, 'j_23__text', '', false)}}
+                                    </ng-template>
+                                    <ng-template #j_23__default_text>
+                                        john.doe@email.com
+                                    </ng-template>
+                                </ion-text>
+                            </ion-col>
+                        </ion-row>
+                        <ion-row _aio-573B93AD #j_24>
+                            <ion-col _aio-555E1645 #j_25 class="ion-text-left">
+                                <ion-text _aio-DA6FE43D #j_26>
+                                    Gender:
+                                </ion-text>
+                            </ion-col>
+                            <ion-col _aio-F8DB70C8 #j_27 class="ion-text-left">
+                                <ion-text _aio-33879B08 #j_28>
+                                    <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_28__text')" [ngIfElse]="j_28__default_text">
+                                        {{__getMapping(currentItem, 'j_28__text', '', false)}}
+                                    </ng-template>
+                                    <ng-template #j_28__default_text>
+                                        Male
+                                    </ng-template>
+                                </ion-text>
+                            </ion-col>
+                        </ion-row>
+                        <ion-row _aio-931654E1 #j_29>
+                            <ion-col _aio-EDBAAB82 #j_30 class="ion-text-left">
+                                <ion-text _aio-F7C935B1 #j_31>
+                                    Date Of Birth:
+                                </ion-text>
+                            </ion-col>
+                            <ion-col _aio-9AECEA44 #j_32 class="ion-text-left">
+                                <ion-text _aio-5FFAA938 #j_33>
+                                    <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_33__text')" [ngIfElse]="j_33__default_text">
+                                        {{__getMapping(currentItem, 'j_33__text', '', false)}}
+                                    </ng-template>
+                                    <ng-template #j_33__default_text>
+                                        01/01/1980
+                                    </ng-template>
+                                </ion-text>
+                            </ion-col>
+                        </ion-row>
+                        <ion-row _aio-D163413D #j_34>
+                            <ion-col _aio-2FDAECB6 #j_35 class="ion-text-left">
+                                <ion-text _aio-D27FCD9D #j_36>
+                                    Address:
+                                </ion-text>
+                            </ion-col>
+                            <ion-col _aio-0700EB4B #j_37 class="ion-text-left">
+                                <ion-text _aio-7327D74A #j_38>
+                                    <ng-template [ngIf]="__isPropertyInMapping(currentItem, 'j_38__text')" [ngIfElse]="j_38__default_text">
+                                        {{__getMapping(currentItem, 'j_38__text', '', false)}}
+                                    </ng-template>
+                                    <ng-template #j_38__default_text>
+                                        402 West Lake Forest St. Palm Beach Gardens, FL 33410
+                                    </ng-template>
+                                </ion-text>
+                            </ion-col>
+                        </ion-row>
+                    </ion-grid>
+                </div>
+                <form _aio-26BE07BE #form="ngForm" #form_el [aioFormChange]="form" [class.aioHidden]="!__getMapping(currentItem, 'j_39__visible', true)">
+                    <ion-item #j_40 _aio-DDEC4CFE>
+                        <ion-label _aio-BA6B0AA2 #j_41 position="stacked">
+                            First Name
+                        </ion-label>
+                        <ion-input _aio-53768B4A #j_42="ngModel" #j_42_el [ngModel] [value]="__getMapping(currentItem, 'j_42__value', '', false)"
+                        name="FirstNameInput" placeholder="Veronica" required="true" aioControlValidation
+                        aioValidationShowMessage="true" (ionChange)="__setMapping($event, 'j_42__value')">
+                        </ion-input>
+                    </ion-item>
+                    <ion-item #j_43 _aio-3F12DDC0>
+                        <ion-label _aio-9ECC506F #j_44 position="stacked">
+                            Last Name
+                        </ion-label>
+                        <ion-input _aio-F912A12B #j_45="ngModel" #j_45_el [ngModel] [value]="__getMapping(currentItem, 'j_45__value', '', false)"
+                        name="LastNameInput" placeholder="Vargas" readonly="false" required="true" aioControlValidation
+                        aioValidationShowMessage="true" (ionChange)="__setMapping($event, 'j_45__value')">
+                        </ion-input>
+                    </ion-item>
+                    <ion-item #j_46 _aio-D05D4368>
+                        <ion-label _aio-8C3B6D7F #j_47 position="stacked">
+                            Phone
+                        </ion-label>
+                        <ion-input _aio-FC07FB14 #j_48="ngModel" #j_48_el [ngModel] [value]="__getMapping(currentItem, 'j_48__value', '', false)"
+                        name="PhoneInput" placeholder="+55 (11) 9 6539-1654" readonly="false" type="tel"
+                        required="true" aioControlValidation aioValidationShowMessage="true" (ionChange)="__setMapping($event, 'j_48__value')"
+                        simpleMask="+9 (999) 999-99999">
+                        </ion-input>
+                    </ion-item>
+                    <ion-item #j_49 _aio-6EAFCC34>
+                        <ion-label _aio-F0DB969A #j_50 position="stacked">
+                            Email
+                        </ion-label>
+                        <ion-input _aio-B18A3E8E #j_51="ngModel" #j_51_el [ngModel] [value]="__getMapping(currentItem, 'j_51__value', '', false)"
+                        name="EmailInput" placeholder="veronicavargas@gmail.com" readonly="false" type="email"
+                        required="true" aioControlValidation="email" aioValidationShowMessage="true" (ionChange)="__setMapping($event, 'j_51__value')">
+                        </ion-input>
+                    </ion-item>
+                    <ion-item #j_52 _aio-3043B454>
+                        <ion-label _aio-DD6E8A31 #j_53 position="stacked">
+                            Gender
+                        </ion-label>
+                        <ion-select _aio-AE5135D8 #j_54="ngModel" #j_54_el [ngModel] [value]="__getMapping(currentItem, 'j_54__value', '', false)"
+                        cancelText="CANCEL" interface="action-sheet" name="GenderSelect" okText="OK" placeholder="Select"
+                        required="false" simpleMask="" (ionChange)="__setMapping($event, 'j_54__value')">
+                            <ion-select-option #j_55 value="Male">
+                                Male
+                            </ion-select-option>
+                            <ion-select-option #j_56 value="Female">
+                                Female
+                            </ion-select-option>
+                        </ion-select>
+                    </ion-item>
+                    <div _aio-6EE15D01 #j_57>
+                        <br>
+                    </div>
+                </form>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <aio-tester-buttons slot="fixed">
+    </aio-tester-buttons>
+</ion-content>

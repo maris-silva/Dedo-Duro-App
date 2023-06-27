@@ -1,0 +1,128 @@
+
+/* Styles properties */
+ion-content[_aio-5529B2E2] {
+	background: #eeeeee;
+	--background: #eeeeee;
+}
+ion-grid[_aio-0D4EA519] {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+ion-row[_aio-ADB61805] {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+ion-col[_aio-60A3B33F] {
+	background-color: #eeeeee;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+ion-avatar[_aio-EB19D31C] {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
+:host ::ng-deep [_aio-F554C72A] {
+	position: relative;
+	top: -50px;
+	left: 55%;
+}
+:host ::ng-deep [_aio-F554C72A] img {
+	height: 50px;
+	width: 50px;
+}
+ion-col[_aio-34DB0A58] {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+div[_aio-C46B9877] {
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+}
+span[_aio-1F7BC3E2] {
+	font-size: 25px;
+	color: var(--ion-color-dark);
+}
+span[_aio-400200CB] {
+	font-size: 25px;
+	color: var(--ion-color-dark);
+}
+ion-note[_aio-CC6424ED] {
+	display: block;
+	padding-top: 10px;
+	margin-bottom: 20px;
+}
+ion-grid[_aio-C7159CAB] {
+	max-width: 500px;
+}
+ion-col[_aio-04F01FB3] {
+	max-width: 120px;
+}
+ion-text[_aio-4EFF2370] {
+	font-weight: bold;
+}
+ion-col[_aio-787FDF3C] {
+	max-width: 120px;
+}
+ion-text[_aio-1B81E7F2] {
+	font-weight: bold;
+}
+ion-col[_aio-555E1645] {
+	max-width: 120px;
+}
+ion-text[_aio-DA6FE43D] {
+	font-weight: bold;
+}
+ion-col[_aio-EDBAAB82] {
+	max-width: 120px;
+}
+ion-text[_aio-F7C935B1] {
+	font-weight: bold;
+}
+ion-col[_aio-2FDAECB6] {
+	max-width: 120px;
+}
+ion-text[_aio-D27FCD9D] {
+	font-weight: bold;
+}
+form[_aio-26BE07BE] {
+	display: inline-block;
+	background-color: #eeeeee;
+	width: 100%;
+	max-width: 500px;
+}
+div[_aio-6EE15D01] {
+	text-align: center;
+	font-size: 12px;
+	padding-left: 16px;
+	margin-top: 10px;
+	color: var(--ion-color-medium);
+}
+ion-toolbar[_aio-9A9C060A] {
+	--background: #E7343D;
+}

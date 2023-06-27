@@ -1,0 +1,50 @@
+<ion-header _aio-7079D2E7>
+    <ion-toolbar _aio-42C242FC #j_76>
+        <ion-buttons #j_77 _aio-A01E37D7 slot="start" collapse="true">
+            <ion-back-button _aio-5A7AA43F #j_78 (click)="button1Click__j_78($event, currentItem)">
+            </ion-back-button>
+        </ion-buttons>
+        <ion-title _aio-C9A4AB5C #j_79>
+            Notifications
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content class="ion-padding" _aio-A5C5420B>
+    <div _aio-B1DC52C7 #j_69 [class.aioHidden]="!__getMapping(currentItem, 'j_69__visible', true)">
+        Someone's got close to yours things
+        <br>
+    </div>
+    <div _aio-EA9E6AD8 #j_70 [class.aioHidden]="!__getMapping(currentItem, 'j_70__visible', true)">
+        No one got close to yours things
+        <br>
+    </div>
+    <ngx-datatable _aio-69266034 aioDatatableResizer class="material" #j_71 [cssClasses]="$aio_j_71.cssClasses"
+    [messages]="$aio_j_71.messages" [headerHeight]="$aio_j_71.headerHeight" [footerHeight]="$aio_j_71.footerHeight"
+    [rowHeight]="$aio_j_71.rowHeight" [loadingIndicator]="$aio_j_71.isLoading" [count]="$aio_j_71.count"
+    [offset]="$aio_j_71.offset" [limit]="$aio_j_71.limit" [sorts]="[$aio_j_71.sorts]"
+    (sort)="$aio_DataTableOnSort_j_71($event)" [rows]="__getDataTableMapping($aio_j_71, 'rows', '')">
+        <ngx-datatable-column _aio-4BB30E63 [name]="'Names'">
+            <ng-template let-value="value" let-currentItem="row" let-row="row" ngx-datatable-cell-template>
+                {{value}}
+            </ng-template>
+        </ngx-datatable-column>
+        <ngx-datatable-column _aio-7818A7A3 [name]="'Date'">
+            <ng-template let-value="value" let-currentItem="row" let-row="row" ngx-datatable-cell-template>
+                {{value}}
+            </ng-template>
+        </ngx-datatable-column>
+        <ngx-datatable-column _aio-4D5E1F64 [name]="'Time'">
+            <ng-template let-value="value" let-currentItem="row" let-row="row" ngx-datatable-cell-template>
+                {{value}}
+            </ng-template>
+        </ngx-datatable-column>
+    </ngx-datatable>
+    <aio-tester-buttons slot="fixed">
+    </aio-tester-buttons>
+</ion-content>
+<ion-footer _aio-6CE34FA9>
+    <ion-toolbar _aio-7928AF8C #j_81>
+        <ion-title _aio-5EF06283 #j_82>
+        </ion-title>
+    </ion-toolbar>
+</ion-footer>

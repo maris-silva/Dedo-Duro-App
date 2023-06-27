@@ -1,0 +1,14 @@
+{
+    "short_name": "dedo-duro1",
+    "name": "dedo-duro1",
+    "description": "",
+    "display": "fullscreen",
+    "orientation": "any",
+    "start_url": "/",
+    "scope": "/",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+
+    ]
+}

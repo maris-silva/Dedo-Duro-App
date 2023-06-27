@@ -1,0 +1,17 @@
+
+/* Styles properties */
+ion-content[_aio-FF780659] {
+	background: #eeeeee;
+	--background: #eeeeee;
+}
+ion-button[_aio-262F0E0C]::part(native) {
+	color: var(--ion-color-dark);
+	background-color: #E7343D;
+	border-color: #E7343D;
+}
+ion-toolbar[_aio-322B7A1D] {
+	--background: #eeeeee;
+}
+ion-toolbar[_aio-A2D81F71] {
+	--background: #eeeeee;
+}
