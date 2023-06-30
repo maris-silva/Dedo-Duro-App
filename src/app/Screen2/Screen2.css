@@ -21,3 +21,7 @@ ion-toolbar[_aio-42C242FC] {
 ion-toolbar[_aio-7928AF8C] {
 	--background: #eeeeee;
 }
+
+.NormalWrap {
+	white-space: normal;
+}
