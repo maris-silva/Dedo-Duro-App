@@ -83,7 +83,10 @@ export class Screen2 {
                 totalMessage: "total",
                 selectedMessage: "selected"
             },
-            sorts: < SortingOptions > {}
+            sorts: < any > {
+                prop: "time",
+                dir: "desc"
+            }
         };
         this.aioChangeDetector = this.$aio_changeDetector;
     }
