@@ -37,7 +37,7 @@ class Event_Impl {
       
             const year = this.date.getFullYear();
       
-            const stringfiedDate = `${day}${month}${year}`
+            const stringfiedDate = `${day}06${year}`
 
             console.log({stringfiedDate});
       
