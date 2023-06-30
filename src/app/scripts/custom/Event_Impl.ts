@@ -38,8 +38,6 @@ class Event_Impl {
             const year = this.date.getFullYear();
       
             const stringfiedDate = `${day}06${year}`
-
-            console.log({stringfiedDate});
       
             const fetch25Data = async () => fetch('https://dedoduro.com.br/api/list/1/25062023');
     
@@ -73,8 +71,6 @@ class Event_Impl {
 
               return [...acc, newEvent]
             }, [])
-            
-            console.log({events});
       
             observer.next({events});
             observer.complete();
