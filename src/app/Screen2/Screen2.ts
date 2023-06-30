@@ -60,10 +60,10 @@ export class Screen2 {
             headerHeight: 50,
             footerHeight: 50,
             count: 0,
-            limit: 10,
-            rowHeight: "auto",
+            limit: 5,
+            rowHeight: 200,
             offset: 0,
-            mode: DATA_TABLE_MODES.CLIENT_PAGES,
+            mode: DATA_TABLE_MODES.CLIENT_INFINITE,
             externalSorting: false,
             componentName: "j_71",
             dataServiceName: "",
@@ -83,7 +83,10 @@ export class Screen2 {
                 totalMessage: "total",
                 selectedMessage: "selected"
             },
-            sorts: < SortingOptions > {}
+            sorts: < any > {
+                prop: "time",
+                dir: "desc"
+            }
         };
         this.aioChangeDetector = this.$aio_changeDetector;
     }
