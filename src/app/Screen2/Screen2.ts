@@ -154,7 +154,7 @@ export class Screen2 {
                             const fetchTodayData = async () => fetch(`https://dedoduro.com.br/api/list/1/${stringfiedDate}`)
                             const data = await fetchTodayData();
                             const bodyDataParsed = await data.json();
-                            console.log("this", this);
+                           
                             const events = bodyDataParsed.events.reduce((acc, {
                                 persons,
                                 ...data
