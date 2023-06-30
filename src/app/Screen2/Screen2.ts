@@ -66,8 +66,8 @@ export class Screen2 {
             mode: DATA_TABLE_MODES.CLIENT_INFINITE,
             externalSorting: false,
             componentName: "j_71",
-            dataServiceName: "",
-            isRowsMapping: false,
+            dataServiceName: "invokeService_Event1",
+            isRowsMapping: true,
             rows: [],
             isLoading: false,
             cssClasses: {
